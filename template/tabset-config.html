@@ -1,0 +1,9 @@
+<ngb-tabset>
+
+	<ngb-tab *ngFor="let menu of menus" title="{{menu.name}}">
+		<template ngbTabContent>
+			{{menu.content}}
+		</template>
+	</ngb-tab>
+
+</ngb-tabset>
