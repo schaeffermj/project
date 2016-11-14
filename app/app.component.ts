@@ -38,15 +38,16 @@ const PGS: pages[] = [
     selector: 'my-app',
     templateUrl: './template/tabset-config.html',
     template: `
+        
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-3 col-md-2 sidebar">
                     <h4>Catagories</h4>
-                    <ul>
+                    <ul class="nav nav-sidebar">
                         <li *ngFor="let catagory of catagories">{{catagory.name}}</li>
                     </ul>
                     <h4>Pages</h4>
-                    <ul>
+                    <ul class="nav nav-sidebar">
                         <li *ngFor="let page of pages">{{page.name}}</li>
                     </ul>
                 </div>

@@ -4,7 +4,9 @@ import {NgbTabsetConfig} from '@ng-bootstrap/ng-bootstrap';
 export class menus {
     id: number;
     name: string;
+    content: string;
 }
+
 
 const Menu: menus[] = [
     { id: 17, name: 'home', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor egestas libero, at viverra urna varius nec. Cras maximus purus ligula, a porttitor turpis placerat non. Quisque lorem elit, rhoncus vel neque vel, elementum bibendum ex. Nulla quis lectus fringilla, imperdiet orci at, convallis tortor. Aenean egestas dui sed blandit consequat. Fusce malesuada metus eu magna porttitor, at blandit mauris eleifend. Nullam sollicitudin blandit mi, et dictum nibh gravida eget. In vel placerat arcu. Praesent luctus purus et tellus semper, sit amet viverra metus egestas.' },
@@ -18,6 +20,7 @@ const Menu: menus[] = [
     templateUrl: './template/tabset-config.html',
     providers: [NgbTabsetConfig] // add NgbTabsetConfig to the component providers
 })
+
 
 export class NgbdTabsetConfig {
     menus = Menu;
