@@ -53,6 +53,7 @@ const PGS: pages[] = [
                 </div>
                 <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
                     <ngbd-tabset-config></ngbd-tabset-config>
+                    <thumbs></thumbs>
                 </div>
             </div>
         </div>
