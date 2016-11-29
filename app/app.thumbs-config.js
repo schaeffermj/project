@@ -9,23 +9,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var platform_browser_1 = require('@angular/platform-browser');
-var app_component_1 = require('./app.component');
-var ng_bootstrap_1 = require('@ng-bootstrap/ng-bootstrap');
-var app_tab_config_1 = require('./app.tab-config');
-var app_thumbs_config_1 = require('./app.thumbs-config');
-var AppModule = (function () {
-    function AppModule() {
+var ThumbsConfig = (function () {
+    function ThumbsConfig() {
     }
-    AppModule = __decorate([
-        core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, ng_bootstrap_1.NgbModule.forRoot()],
-            declarations: [app_component_1.AppComponent, app_tab_config_1.NgbdTabsetConfig, app_thumbs_config_1.ThumbsConfig],
-            bootstrap: [app_component_1.AppComponent]
+    ThumbsConfig = __decorate([
+        core_1.Component({
+            selector: 'thumbs',
+            templateUrl: './template/thumbs.html',
+            providers: [ThumbsConfig]
         }), 
         __metadata('design:paramtypes', [])
-    ], AppModule);
-    return AppModule;
+    ], ThumbsConfig);
+    return ThumbsConfig;
 }());
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+exports.ThumbsConfig = ThumbsConfig;
+//# sourceMappingURL=app.thumbs-config.js.map

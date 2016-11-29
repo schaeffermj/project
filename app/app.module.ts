@@ -3,10 +3,11 @@ import { BrowserModule }    from '@angular/platform-browser';
 import { AppComponent }     from './app.component';
 import { NgbModule }        from '@ng-bootstrap/ng-bootstrap';
 import { NgbdTabsetConfig } from './app.tab-config';
+import { ThumbsConfig }     from './app.thumbs-config';
 
 @NgModule({
     imports:      [ BrowserModule, NgbModule.forRoot() ],
-    declarations: [ AppComponent, NgbdTabsetConfig ],
+    declarations: [ AppComponent, NgbdTabsetConfig, ThumbsConfig ],
     bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
