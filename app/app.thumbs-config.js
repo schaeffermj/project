@@ -9,8 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var thumbs = (function () {
+    function thumbs() {
+    }
+    return thumbs;
+}());
+exports.thumbs = thumbs;
+var Thumb = [
+    { id: 20, source: 'http://placehold.it/150x150' },
+    { id: 21, source: 'http://placehold.it/150x150' },
+    { id: 22, source: 'http://placehold.it/150x150' },
+    { id: 23, source: 'http://placehold.it/150x150' }
+];
 var ThumbsConfig = (function () {
     function ThumbsConfig() {
+        this.thumbs = Thumb;
     }
     ThumbsConfig = __decorate([
         core_1.Component({

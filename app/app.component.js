@@ -49,8 +49,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            templateUrl: './template/tabset-config.html',
-            template: "\n        \n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-sm-3 col-md-2 sidebar\">\n                    <h4>Catagories</h4>\n                    <ul class=\"nav nav-sidebar\">\n                        <li *ngFor=\"let catagory of catagories\">{{catagory.name}}</li>\n                    </ul>\n                    <h4>Pages</h4>\n                    <ul class=\"nav nav-sidebar\">\n                        <li *ngFor=\"let page of pages\">{{page.name}}</li>\n                    </ul>\n                </div>\n                <div class=\"col-sm-9 offset-sm-3 col-md-10 offset-md-2 main\">\n                    <ngbd-tabset-config></ngbd-tabset-config>\n                    <thumbs></thumbs>\n                </div>\n            </div>\n        </div>\n " }), 
+            templateUrl: './template/template.html'
+        }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
     return AppComponent;
